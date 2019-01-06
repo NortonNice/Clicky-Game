@@ -6,9 +6,7 @@ import './assets/images/chuck.jpg';
 
 const ClickItem = (props) => {
     return (
-        <div>
-        <img src={require('./assets/images/cash.jpg')} className = "clickItem" alt = "CASH " />
-        </div> 
+        <div> {props.artist} </div> 
     )
 }
 

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import ClickItem from "./ClickItem";
+import ImageArray from "./ImageArray";
 
 
 
@@ -13,8 +14,8 @@ class App extends Component {
       
         <div class="row">
           <div class="col-sm">
-            <ClickItem />
-            <ClickItem />
+            <ClickItem artist = {ImageArray[0].artist}/>
+            <ClickItem artist = {ImageArray[1].artist}/>
             <ClickItem />
           </div>
           <div class="col-sm">
