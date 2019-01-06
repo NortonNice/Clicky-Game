@@ -1,31 +1,18 @@
 import React from 'react';
-import './assets/images/cash.jpg';
-import './assets/images/chuck.jpg';
-import './assets/images/connie.jpg';
-import './assets/images/diddley.jpg';
-import './assets/images/elvis.jpg';
-import './assets/images/emmylou.jpg';
-import './assets/images/frank.jpg';
-import './assets/images/jimmy.jpg';
-import './assets/images/linda.jpg';
-import './assets/images/ray.jpg';
-import './assets/images/rosetta.jpg';
-import './assets/images/waylon.jpg';
+ 
 
-const ImageArray = [
-        {artist: "./assets/images/cash.jpg"},
-        {artist: "./assets/images/chuck.jpg"},
-        {artist: "./assets/images/connie.jpg"},
-        {artist: "./assets/images/diddley.jpg"},
-        {artist: "./assets/images/elvis.jpg"},
-        {artist: "./assets/images/emmylou.jpg"},
-        {artist: "./assets/images/frank.jpg"},
-        {artist: "./assets/images/jimmy.jpg"},
-        {artist: "./assets/images/linda.jpg"},
-        {artist: "./assets/images/ray.jpg"},
-        {artist: "./assets/images/rosetta.jpg"},
-        {artist: "./assets/images/waylon.jpg"},
-    ];
+export default [
+    { src: "./assets/images/cash.jpg", alt: "picture of cash" },
+    { src: "./assets/images/chuck.jpg", alt:"picture of chuck" },
+    { src: "./assets/images/connie.jpg", alt:"picture of connie" },
+    { src: "./assets/images/diddley.jpg", alt:"picture of diddley" },
+    { src: "./assets/images/elvis.jpg", alt:"picture of elvis" },
+    { src: "./assets/images/emmylou.jpg", alt:"picture of emmylou" },
+    { src: "./assets/images/frank.jpg", alt:"picture of frank" },
+    { src: "./assets/images/jimmy.jpg", alt:"picture of jimmy" },
+    { src: "./assets/images/linda.jpg", alt:"picture of linda" },
+    { src: "./assets/images/ray.jpg", alt:"picture of ray" },
+    { src: "./assets/images/rosetta.jpg", alt:"picture of rosetta" },
+    { src: "./assets/images/waylon.jpg", alt:"picture of waylon" }
+  ]
 
-
-export default ImageArray;
