@@ -1,5 +1,7 @@
 import React from 'react';
 import './ClickItem.css';
+import './assets/images/cash.jpg';
+import './assets/images/chuck.jpg';
 
 
 const ClickItem = (props) => {
